@@ -15,8 +15,8 @@ function jumpingOnClouds(c) {
 
 function main() {
   for (let input of this) {
-    console.log(input);
-    console.log('\n\n', jumpingOnClouds(input), '\n\n');
+    console.log('input: ', input);
+    console.log('output: ', jumpingOnClouds(input), '\n\n');
   }
 }
 const inputs = [
